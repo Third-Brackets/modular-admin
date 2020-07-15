@@ -1,10 +1,10 @@
 # ModularAdmin: Free Bootstrap 4 Dashboard Theme <br> HTML version
 
-[Demo](http://third-brackets.github.io/modular-admin-html)
+[Demo](http://third-brackets.github.io/modular-admin)
 
 <p align="center">
   <strong>
-    <a href="http://third-brackets.github.io/modular-admin-html" target="_blank">View Demo</a> | <a href="https://github.com/modularcode/modular-admin-html/releases" target="_blank">Download ZIP</a>
+    <a href="http://third-brackets.github.io/modular-admin" target="_blank">View Demo</a> | <a href="https://github.com/third-brackets/modular-admin/releases" target="_blank">Download ZIP</a>
   </strong>
 </p>
 
@@ -15,12 +15,12 @@ ModularAdmin is an open source **dashboard theme** built in a modular way. That 
 
 ## Getting Started
 
-> **Note:** If you don't want to re-build the project, you may just clone this branch directly  ```https://github.com/modularcode/modular-admin-html/tree/gh-pages```
+> **Note:** If you don't want to re-build the project, you may just clone this branch directly  ```https://github.com/third-brackets/modular-admin/tree/gh-pages```
 
-### 1. [Download ZIP](https://github.com/modularcode/modular-admin-html/releases/latest) or Git Clone
+### 1. [Download ZIP](https://github.com/third-brackets/modular-admin/releases/latest) or Git Clone
 
 ```
-git clone https://github.com/modularcode/modular-admin-html.git
+git clone https://github.com/third-brackets/modular-admin.git
 ```
 ### 2. Build the project
 
@@ -168,7 +168,7 @@ Templates themselves are just parts of the markup, and aren't compiled as separa
 
 Pages can consist of different templates (partials) which can be included thanks to handlebars partial including feature. Also each page has its context, which is a data passed into the template on rendering. That data is used in template expressions and variables. page contexts can be defined in two ways:
 
-**YAML** headers ([example](https://github.com/modularcode/modular-admin-html/blob/master/src/app/dashboard/index-page.hbs))
+**YAML** headers ([example](https://github.com/third-brackets/modular-admin/blob/master/src/app/dashboard/index-page.hbs))
 
 ```
 ---
@@ -198,9 +198,9 @@ The final result of page context is a combination of both ways. Moreover, differ
 
 If different pages have a lot of common components like sidebars, headers, footers, then it's a good idea to define a layout for those common pages, and define in page files only the content which is unique.
 
-Layout is a page content wrapper. If the page has a layout in output we'll get page's content inserted into the layout. Layouts should have ```{{{body}}}``` handlebars tag, which is entry point for the page content. ([example](https://github.com/modularcode/modular-admin-html/blob/master/src/app/app-layout.hbs))
+Layout is a page content wrapper. If the page has a layout in output we'll get page's content inserted into the layout. Layouts should have ```{{{body}}}``` handlebars tag, which is entry point for the page content. ([example](https://github.com/third-brackets/modular-admin/blob/master/src/app/app-layout.hbs))
 
-To define a page layout you need to specify page file context's ```layout``` variable. It can be done both with a YAML header or a _context.js file. ([example](https://github.com/modularcode/modular-admin-html/blob/master/src/app/forms/forms-page.hbs)).
+To define a page layout you need to specify page file context's ```layout``` variable. It can be done both with a YAML header or a _context.js file. ([example](https://github.com/third-brackets/modular-admin/blob/master/src/app/forms/forms-page.hbs)).
 
 Layouts can also have contexts and parent layouts.
 

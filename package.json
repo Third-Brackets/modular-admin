@@ -4,14 +4,14 @@
   "description": "ModularAdmin: Free Dashboard Theme; html version",
   "repository": {
     "type": "git",
-    "url": "https://github.com/modularcode/modular-admin-html.git"
+    "url": "https://github.com/third-brackets/modular-admin.git"
   },
   "author": "ModularCode",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/modularcode/modular-admin-html/issues"
+    "url": "https://github.com/third-brackets/modular-admin/issues"
   },
-  "homepage": "https://github.com/modularcode/modular-admin-html",
+  "homepage": "https://github.com/third-brackets/modular-admin",
   "dependencies": {
     "animate.css": "^3.5.2",
     "bootstrap": "^4.3.1",
@@ -63,7 +63,7 @@
   "scripts": {
     "start": "npm run gulp",
     "build": "npm run gulp build",
-    "deploy": "cross-env BASE_URL=\"/modular-admin-html/\" npm run build && gh-pages -d dist",
+    "deploy": "cross-env BASE_URL=\"/modular-admin/\" npm run build && gh-pages -d dist",
     "gulp": "gulp --gulpfile build/gulpfile.js",
     "postinstall": "opencollective postinstall"
   },
