@@ -1,5 +1,4 @@
 $(function(){
-	$.trumbowyg.svgPath = '/assets/icons/trumbowyg.svg';
 	// set sortable options
 	var sortable = new Sortable($('.images-container').get(0), {
 		animation: 150,
